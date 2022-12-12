@@ -17,3 +17,7 @@
     padding-left: 2%;
     padding-right: 5%;
 }
+
+#nav-edit li a {
+    text-decoration: none;
+}
