@@ -12,30 +12,36 @@
     list-style-type: none;
 }
 
-#nav-edit li {
-    display: inline-block;
-    padding-left: 2%;
-    padding-right: 5%;
+#nav-edit ul {
+    margin-right: 4%;
 }
 
-#nav-edit li a {
+#nav-edit li {
+    display: inline-block;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
+#nav-edit ul li a {
     text-decoration: none;
 }
 
+#nav-edit ul li input {
+    padding: 5%;
+    border: 2px solid plum;
+    border-radius: 2%;
+}
+
 #sec1-edit {
-    background-color: ;
-    margin-top: 5%;
-    margin-bottom: 5%;
-    margin-left: 5%;
-    margin-right: 5%;
-    width: 70%;
+    margin: 5%;
+    width: 50%;
 }
 
 #sec1-edit div input {
     padding-left: 2%;
     padding-right: 2%;
-    padding-top: 1%;
-    padding-bottom: 1%;
+    padding-top: 2%;
+    padding-bottom: 2%;
     margin-top: 3%;
     margin-left: 3%;
     width: 40%;
@@ -48,35 +54,34 @@
     padding-bottom: 2%;
     margin-top: 3%;
     margin-left: 3%;
-    width: 60%;
+    width: 80%;
 }
 
 #sec1-edit div button {
     margin-top: 1%;
     margin-bottom: 3%;
     margin-left: 3%;
-    padding-top: 1%;
-    padding-bottom: 1%;
-    padding-left: 2%;
-    padding-right: 2%;
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
+    padding-left: 3%;
+    padding-right: 3%;
     background-color: plum;
 }
 
 #art-edit aside{
+    border: 2px solid plum;
+    border-radius: 4%;
     background-color: blueviolet;
-    margin-top: 5%;
-    margin-bottom: 5%;
-    margin-right: 5%;
-    width: 30%;
+    margin: 5%;
+    width: 50%;
 }
 
+#art-edit aside p {
+    margin: 8%;
+}
 
 #art-edit aside h3 {
     margin:  8%;
-}
-
-#art-edit aside ul{
-    margin: 2%;
 }
 
 #art-edit {
@@ -85,6 +90,6 @@
 
 
 #footer-edit {
-    background-color: black;
+    background-color: #222;
     padding: 3%;
 }

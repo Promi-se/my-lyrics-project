@@ -12,12 +12,66 @@
     list-style-type: none;
 }
 
-#nav-edit li {
-    display: inline-block;
-    padding-left: 2%;
-    padding-right: 5%;
+#nav-edit ul {
+    margin-right: 4%;
 }
 
-#nav-edit li a {
+#nav-edit li {
+    display: inline-block;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
+#nav-edit ul li a {
     text-decoration: none;
+}
+#nav-edit ul li input {
+    padding: 5%;
+    border: 2px solid plum;
+    border-radius: 2%;
+}
+
+#footer-edit {
+    background-color: #222;
+    padding: 3%;
+}
+
+#art-edit {
+    display: flex;
+}
+
+#lyrics-box1 {
+    background-color: blueviolet;
+    width: 100%;
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-bottom: 5%;
+    
+}
+
+#lyrics-box2 {
+    background-color: blueviolet;
+    width: 100%;
+    margin-top: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+}
+
+#art-edit section div {
+    border: 2px solid plum;
+}
+
+#art-edit section div h1 {
+    text-align: center;
+    font-size: 140%;
+}
+
+#art-edit section div p {
+    text-align: center;
+    font-size: 120%
+    ;
+}
+
+#lyrics-box2 p {
+    padding-bottom: 4px;
 }
