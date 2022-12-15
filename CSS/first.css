@@ -2,6 +2,10 @@
     background-color: indigo;
     width: auto;
 }
+#main-width {
+    width: auto;
+}
+
 #header-edit {
     text-align: center;
     color: indigo;
@@ -42,7 +46,7 @@
 
 #lyrics-box1 {
     background-color: blueviolet;
-    width: 100%;
+    width: 50%;
     margin-top: 5%;
     margin-left: 5%;
     margin-bottom: 5%;
@@ -51,7 +55,7 @@
 
 #lyrics-box2 {
     background-color: blueviolet;
-    width: 100%;
+    width: 50%;
     margin-top: 5%;
     margin-right: 5%;
     margin-bottom: 5%;
