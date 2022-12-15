@@ -1,0 +1,56 @@
+.body-style {
+    width: auto;
+    background-color: blueviolet;
+}
+
+.header-style {
+    text-align: center;
+    border: 2px solid indigo;
+    background-color: indigo;
+}
+
+#container {
+    width: 100%;
+}
+
+.navbar-top {
+    width: auto;
+    display: flex;
+}
+
+#nav-title-div {
+   line-height:60px;
+   font-size:20px;
+   color: plum;
+   width: 45%;
+   letter-spacing: 1px;
+   text-shadow:1px 1px 2px;
+}
+
+.nav-ul {
+    list-style-type: none;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.nav-ul-li {
+    width: 100%; 
+    display: inline-block;
+    line-height:80px;
+    text-align:center;
+}
+
+.nav-ul-li a {
+    color: plum;
+    text-decoration: none;
+}
+
+#navbar-title {
+    color: blueviolet;
+}
+
+#search-button-li {
+    margin-right:  5%;
+    margin-left: 5%;
+}
