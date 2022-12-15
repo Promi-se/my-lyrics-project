@@ -3,6 +3,8 @@
     background-color: blueviolet;
 }
 
+/* header and navbar css style start */
+
 .header-style {
     text-align: center;
     border: 2px solid indigo;
@@ -54,3 +56,51 @@
     margin-right:  5%;
     margin-left: 5%;
 }
+
+/* header and navbar css style end */
+
+/* main section css style start */
+
+.lyrics-table-1 {
+    text-align: center;
+    width: 80%;
+    border: 2px solid indigo;
+    background-color: ;
+    margin-top: 10%;
+    margin-left: 10%;
+    margin-bottom: 10%;
+    color: plum;
+    font-size: 120%;
+    background-color: indigo;
+}
+
+.title-row {
+    color: rgb(248, 252, 255);
+}
+
+.title-col {
+    border: 2px solid blueviolet;
+}
+
+.lyrics-section {
+    border: 2px solid white;
+    width: 100%;
+}
+
+.lyrics-row {
+    border: 2px, solid blueviolet;
+}
+
+.korean-lyrics {
+    border: 2px solid blueviolet;
+}
+
+.romanized-lyrics {
+    border: 2px solid blueviolet;
+}
+
+.english-translation {
+    border: 2px solid blueviolet;
+}
+
+/* main section css style stop */
