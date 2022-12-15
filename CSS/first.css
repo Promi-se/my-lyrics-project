@@ -84,3 +84,22 @@
     margin-top: 6%;
     font-size: larger;
 }
+
+#song-info {
+    text-align: center;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+    border: 2px solid indigo;
+}
+
+#song-info a {
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 120%;
+    padding: 2%;
+}
+
+#song-info iframe {   
+    padding: 2%;
+}
