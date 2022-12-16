@@ -1,36 +1,73 @@
 #bg-color {
-    background-color: indigo;
+    background-color: blueviolet;
     width: auto;
 }
-#header-edit {
+
+/* header and navbar css style start */
+
+.header-style {
     text-align: center;
-    color: indigo;
-    border: 2px solid blueviolet;
-    background-color: blueviolet;
+    border: 2px solid indigo;
+    background-color: indigo;
 }
-#nav-edit {
+
+#container {
+    width: 100%;
+}
+
+.navbar-top {
+    width: auto;
+    display: flex;
+}
+
+#nav-title-div {
+   line-height:60px;
+   font-size:20px;
+   color: plum;
+   width: 45%;
+   letter-spacing: 1px;
+   text-shadow:1px 1px 2px;
+}
+
+.nav-ul {
     list-style-type: none;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
 }
 
-#nav-edit ul {
-    margin-right: 4%;
-}
-
-#nav-edit li {
+.nav-ul-li {
+    width: 100%; 
     display: inline-block;
-    padding-left: 3%;
-    padding-right: 3%;
+    line-height:80px;
+    text-align:center;
 }
 
-#nav-edit ul li a {
+.nav-ul-li a {
+    color: plum;
     text-decoration: none;
 }
 
-#nav-edit ul li input {
-    padding: 5%;
+#navbar-title {
+    color: blueviolet;
+}
+
+#search-button-li {
+    margin-right:  5%;
+    margin-left: 5%;
+
+}
+
+#search-input {
+    padding: 3%;
     border: 2px solid plum;
     border-radius: 2%;
+    width: 80%;
 }
+
+/* header and navbar css style end */
+
+/* main section css style start */
 
 #sec1-edit {
     margin: 5%;
@@ -71,9 +108,10 @@
 #art-edit aside{
     border: 2px solid plum;
     border-radius: 4%;
-    background-color: blueviolet;
+    background-color: indigo;
     margin: 5%;
     width: 50%;
+    color: plum;
 }
 
 #art-edit aside p {
@@ -90,6 +128,8 @@
 
 
 #footer-edit {
-    background-color: #222;
+    background-color: indigo;
     padding: 3%;
 }
+
+/* main section css style end */
