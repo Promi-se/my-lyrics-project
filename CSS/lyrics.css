@@ -67,14 +67,27 @@
 
 /* header and navbar css style end */
 
+
+
 /* main section css style start */
+/* lyrics section css style start */
+
+#song-title {
+    text-align: center;
+    color: indigo;
+    font-size: larger;
+    margin-top: 10%;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
 
 .lyrics-table-1 {
     text-align: center;
     width: 80%;
     border: 2px solid indigo;
     background-color: ;
-    margin-top: 10%;
+    margin-top: 3%;
     margin-left: 10%;
     margin-bottom: 10%;
     color: plum;
@@ -91,7 +104,7 @@
     padding: 2%;
 }
 
-.lyrics-section {
+#lyrics-section {
     border: 2px solid blueviolet;
     width: 100%;
 }
@@ -118,4 +131,45 @@
     width: 23.3%;
 }
 
+/* lyrics section css style ended */
+/* song info section css style start */
+
+#song-info-section {
+    border: 2px solid blueviolet;
+    background-color: blueviolet;
+    text-align: center;
+}
+
+.song-info {
+    background-color: blueviolet;
+    margin-left: 10%;
+    margin-right: 10%;
+    /* background-color: pink; */
+}
+
+
+.song-info a {
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 120%;
+}
+
+#spotify-info iframe {
+    margin-top: 2%;
+}
+
+#apple-music-info iframe{
+    margin-top: 3%;
+    margin-bottom: 2%;
+}
+
+#youtube-info iframe {
+    margin-bottom: 2%;
+}
+
+#youtube-info p {
+    padding-top: 2%;
+}
+
+/* song info section css style ended */
 /* main section css style stop */
